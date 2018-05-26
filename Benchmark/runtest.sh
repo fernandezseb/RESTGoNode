@@ -1,0 +1,8 @@
+#!/bin/bash
+
+OUTNAME="DB_GOLANG_NOTES.csv"
+PORT=8000
+HOSTNAME="127.0.0.1"
+CONFIG="GetNotes.jmx"
+
+jmeter -n -t $CONFIG -JPortNr=$PORT -JIP=$HOSTNAME -l $OUTNAME

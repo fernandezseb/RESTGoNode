@@ -1,0 +1,15 @@
+{
+  "name": "notes",
+  "version": "0.0.1",
+  "description": "A PoC implementation of a REST API for a simple notes app.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sebastiaan Fernandez",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongodb": "^3.0.6"
+  }
+}
